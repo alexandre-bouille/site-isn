@@ -1,0 +1,141 @@
+body{
+	width:1100px;
+	height:550px;
+	background-image:url("images/fond pixel art.png");
+	background-repeat:no-repeat;
+}
+#G{
+	width:90px; 
+	height:20px; 
+	border:solid 1px black;
+	background-color:white;
+	float:right;
+}
+
+#gauche{
+	float:left;
+	width:150px;
+	height:550px;
+}
+#droite{
+	width:220px;
+	height:550px;
+	float:right;
+}
+#haut{
+	height:300px;
+	width:220px;
+}
+#bas{
+	height:250px;
+	width:220px;
+}
+#plat{
+	width:630px;
+	height:554px;
+	background-color:white;
+	float:left;
+	
+}
+#palette{
+	width:100px;
+	height:550px;
+	float:left;
+	
+}
+#cyan{
+	width:48px;
+	height:48px;
+	border:solid 1px black;
+	background-color:cyan;
+	float:right;
+}
+#rouge{
+	width:48px;
+	height:48px;
+	border:solid 1px black;
+	background-color:red;
+	float:left;
+}
+#blanc{
+	width:48px;
+	height:48px;
+	background-color:white;
+	border:solid 1px black;
+	float:left;
+}
+#noir{
+	width:48px;
+	height:48px;
+	border:solid 1px white;
+	background-color:black;
+	float:right;
+}
+#bleu{
+	width:48px;
+	height:48px;
+	border:solid 1px black;
+	background-color:blue;
+	float:left;
+}
+#jaune{
+	width:48px;
+	height:48px;
+	border:solid 1px black;
+	background-color:yellow;
+	float:right;
+}
+#vert{
+	width:48px;
+	height:48px;
+	border:solid 1px black;
+	background-color:green;
+	float:right;
+}
+#violet{
+	width:48px;
+	height:48px;
+	border:solid 1px black;
+	background-color:purple;
+	float:left;
+}
+#orange{
+	width:48px;
+	height:48px;
+	border:solid 1px black;
+	background-color:orange;
+	float:left;
+}
+#rose{
+	width:48px;
+	height:48px;
+	border:solid 1px black;
+	background-color:pink;
+	float:right;
+}
+#gomme{
+	width:98px;
+	height:75px;
+}
+#smiley{
+	width:98px;
+	height:75px;
+}
+#flap{
+	width:98px;
+	height:75px;
+}
+#champi{
+	width:98px;
+	height:75px;
+}
+#couleurs{
+	height:250px;
+	width:100px;
+	float:left;
+}
+#outils{
+	height:300px;
+	width:100px;
+	float:left;
+}

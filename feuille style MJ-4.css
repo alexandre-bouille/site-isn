@@ -1,0 +1,36 @@
+body{
+	width:900px;
+	height:500px;
+	background-image:url("images/fond pile ou face.png");
+	background-repeat:no-repeat;
+}
+#G{
+	width:90px; 
+	height:20px; 
+	border:solid 1px black;
+	background-color:white;
+	float:right;
+}
+
+#gauche{
+	float:left;
+	width:150px;
+	height:500px;
+}
+
+#millieu{
+	width:500px;
+	height:500px;
+	float:left;
+}
+
+#droite{
+	float:right;
+	width:250px;
+	height:500px;
+}
+
+#haut, #bas{
+	height:250px;
+	width:250px;
+}

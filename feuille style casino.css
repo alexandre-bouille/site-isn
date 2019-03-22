@@ -1,0 +1,65 @@
+body{
+	width:1500px;
+	background-image:url("images/casino body.png");
+	
+}
+#millieu{
+	width:1500px;
+	height : 150px;
+}
+#haut, #bas{
+	height: 150px;
+	width: 1500px;
+}
+#vide{
+	float: left;
+	height: 150px;
+	width: 200px;
+}
+
+#videlarge{
+	height: 150px;
+	width: 1500px;
+}
+
+#MJ-1{    
+float:left;
+width:450px;
+height : 150px;
+}
+#MJ-2{
+float:left;
+width:450px;
+height : 150px;
+}
+#MJ-3{
+float:left;
+width:450px;
+height : 150px;
+}
+#MJ-4{
+float:left;
+width:450px;
+height : 150px;
+}
+#M-J5{
+float:left;
+width:600px;
+height : 150px;
+}
+#mine{
+	float:left;
+width:200px;
+height : 200px;
+}
+#vide2{
+float:left;
+width:300px;
+height : 200px;
+}
+#G{
+	width:90px; 
+	height:20px; 
+	border:solid 1px black;
+	background-color:white;
+}

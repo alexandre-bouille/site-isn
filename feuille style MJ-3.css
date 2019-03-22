@@ -1,0 +1,59 @@
+body{
+	width:900px;
+	height:500px;
+	background-image:url("images/fond morpion.png");
+	background-repeat:no-repeat;
+}
+#G{
+	width:90px; 
+	height:20px; 
+	border:solid 1px black;
+	background-color:white;
+	float:right;
+}
+
+#gauche{
+	float:left;
+	width:150px;
+	height:500px;
+}
+
+#millieu{
+	width:500px;
+	height:500px;
+	float:left;
+}
+
+#droite{
+	float:right;
+	width:250px;
+	height:500px;
+}
+
+#haut, #bas{
+	height:250px;
+	width:250px;
+}
+#jeu{
+	height:500px;
+	width:412px;
+	float:left;
+	
+}
+#videl{
+	height:100px;
+	width:412px;
+}
+#vide{
+	height:500px;
+	width:88px;
+	float:left;
+	
+}
+#tab{
+	height:325px;
+	width:325px;
+	background-color:white;
+	float:left;
+	
+}

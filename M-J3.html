@@ -1,0 +1,84 @@
+<!DOCTYPEhtml>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title> Le morpion </title>
+	<link href="feuille style MJ-3.css" rel="stylesheet" type="text/css"/>
+	<style>
+	.caseBataille{
+		width:100px;
+ 		height:100px;
+ 		text-align:center;
+ 	}
+</style>
+<script type='text/javascript' src="MJ-3.js"> </script>
+<script src="G.js"> </script>
+<script src="Casino.js"> </script>
+
+</script>
+
+</head>
+
+<body onmouseup="ACT()">
+
+<a href="Corps casino.html">
+<div id="gauche">
+	<img src="images/bobby.png">
+</div>
+</a>
+
+<div id="millieu">
+	<div id="vide">
+	</div>
+	
+	<div id="jeu">
+		<div id="videl">
+		</div>
+		
+		<div id="tab">
+		<table id="plateau" border="1">
+
+<tr>
+
+<td class="caseBataille" id="0" onclick="ChCase(0);"></td>
+<td class="caseBataille" id="1" onclick="ChCase(1);"></td>
+<td class="caseBataille" id="2" onclick="ChCase(2);"></td>
+
+</tr>
+<tr>
+
+<td class="caseBataille" id="3" onclick="ChCase(3);"></td>
+<td class="caseBataille" id="4" onclick="ChCase(4);"></td>
+<td class="caseBataille" id="5" onclick="ChCase(5);"></td>
+
+</tr>
+
+<tr>
+
+<td class="caseBataille" id="6" onclick="ChCase(6);"></td>
+<td class="caseBataille" id="7" onclick="ChCase(7);"></td>
+<td class="caseBataille" id="8" onclick="ChCase(8);"></td>
+
+</tr>
+
+</table>
+<br/>
+		</div>
+	</div>
+</div>
+
+<div id="droite">
+	<div id="haut">
+	<div id="G">
+	</div>
+	</div>
+	<div id="bas">
+	<p> Ce jeu est un morpion. Allignez 3 cases noire et vous gagnez 12 &euro;. Si l'ordinateur alligne 3 cases rouges vous perdez la moiti&eacute de votre argent. En cas d'&eacutegalit&eacute, rien ne se passe. Cliquez sur Bobby pour revenir au casino.</p>
+	</div>
+</div>
+
+
+
+</body>
+</html>

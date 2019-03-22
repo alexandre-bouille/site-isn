@@ -1,0 +1,41 @@
+body{
+	width:1000px;
+	height: 600px;
+	}
+	
+#gauche{
+	width:500px;
+	display: block;
+	float:left;
+	background-image:url("images/clicker div gauche.png");
+}
+
+#droite{
+	width:500px;
+	display: block;
+	height: 600px;
+	float:right;
+	background-image:url("images/clicker div droite.png");
+}
+
+#vide{
+	width:500px;
+	height: 200px;
+	display: block;
+	float:left;
+}
+ 
+#sortie{
+	width:500px;
+	height: 200px;
+	display: block;
+	float:left;
+}
+
+#G{
+	width:90px; 
+	height:20px; 
+	border:solid 1px black;
+	float: right;
+	background-color:white;
+}

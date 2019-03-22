@@ -1,0 +1,58 @@
+body{
+	width:900px;
+	height:500px;
+	background-image:url("images/fond jeu vitesse.png");
+	background-repeat:no-repeat;
+}
+#G{
+	width:90px; 
+	height:20px; 
+	border:solid 1px black;
+	background-color:white;
+	float:right;
+}
+
+#gauche{
+	float:left;
+	width:150px;
+	height:500px;
+}
+
+#millieu{
+	width:500px;
+	height:500px;
+	float:left;
+}
+
+#droite{
+	float:right;
+	width:250px;
+	height:500px;
+}
+
+#haut, #bas{
+	height:250px;
+	width:250px;
+}
+#plat{
+	height:343px;
+	width:343px;
+	float:left;
+	background-color:white;
+}
+#start{
+	height:80px;
+	width:80px;
+	float:left;
+	
+}
+#videl{
+	height:120px;
+	width:500px;
+	
+}
+#jeu{
+	height:380px;
+	width:500px;
+	
+}

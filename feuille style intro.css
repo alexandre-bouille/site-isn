@@ -1,0 +1,29 @@
+body{
+	width:790px;
+	height:600px;
+	background-image:url("images/body intro.png");
+	background-repeat: no-repeat;
+}
+#haut{
+	height:300px;
+}
+#bas{
+	height:300px;
+}
+#debut{
+	width:395px;
+	height:300px;
+	float:left;
+}
+#texte{
+	width:395px;
+	height:300px;
+	float:right;
+}
+#G{
+	width:90px; 
+	height:20px; 
+	border:solid 1px black;
+	background-color:white;
+	float:right;
+}

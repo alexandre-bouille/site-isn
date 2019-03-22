@@ -1,0 +1,126 @@
+<!DOCTYPEhtml>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title> Jeu de vitesse </title>
+	<link href="feuille style MJ-2.css" rel="stylesheet" type="text/css"/>
+	<style>
+	.Case{
+		width:50px;
+ 		height:50px;
+ 	}
+</style>
+
+</head>
+
+<body onmouseup="ACT()">
+
+<script src="G.js"> </script>
+<script src="Casino.js"> </script>
+<script src="demineur.js"> </script>
+
+<a href="Corps casino.html">
+<div id="gauche">
+	<img src="images/bobby.png">
+</div>
+</a>
+
+<div id="millieu">
+	<div id="videl">
+	</div>
+	<div id="jeu">
+
+		<div id="plat">
+			<table id="plateau" border="1">
+
+			<tr>
+
+			<td class="Case" id="0" onclick="ChCase(0);"></td>
+			<td class="Case" id="1" onclick="ChCase(1);"></td>
+			<td class="Case" id="2" onclick="ChCase(2);"></td>
+			<td class="Case" id="3" onclick="ChCase(3);"></td>
+			<td class="Case" id="4" onclick="ChCase(4);"></td>
+			<td class="Case" id="5" onclick="ChCase(5);"></td>
+
+			</tr>
+			<tr>
+
+			<td class="Case" id="6" onclick="ChCase(6);"></td>
+			<td class="Case" id="7" onclick="ChCase(7);"></td>
+			<td class="Case" id="8" onclick="ChCase(8);"></td>
+			<td class="Case" id="9" onclick="ChCase(9);"></td>
+			<td class="Case" id="10" onclick="ChCase(10);"></td>
+			<td class="Case" id="11" onclick="ChCase(11);"></td>
+
+			</tr>
+
+			<tr>
+
+			<td class="Case" id="12" onclick="ChCase(12);"></td>
+			<td class="Case" id="13" onclick="ChCase(13);"></td>
+			<td class="Case" id="14" onclick="ChCase(14);"></td>
+			<td class="Case" id="15" onclick="ChCase(15);"></td>
+			<td class="Case" id="16" onclick="ChCase(16);"></td>
+			<td class="Case" id="17" onclick="ChCase(17);"></td>
+
+			</tr>
+
+			<tr>
+
+			<td class="Case" id="18" onclick="ChCase(18);"></td>
+			<td class="Case" id="19" onclick="ChCase(19);"></td>
+			<td class="Case" id="20" onclick="ChCase(20);"></td>
+			<td class="Case" id="21" onclick="ChCase(21);"></td>
+			<td class="Case" id="22" onclick="ChCase(22);"></td>
+			<td class="Case" id="23" onclick="ChCase(23);"></td>
+
+			</tr>
+
+			<tr>
+
+			<td class="Case" id="24" onclick="ChCase(24);"></td>
+			<td class="Case" id="25" onclick="ChCase(25);"></td>
+			<td class="Case" id="26" onclick="ChCase(26);"></td>
+			<td class="Case" id="27" onclick="ChCase(27);"></td>
+			<td class="Case" id="28" onclick="ChCase(28);"></td>
+			<td class="Case" id="29" onclick="ChCase(29);"></td>
+
+			</tr>
+
+			<tr>
+
+			<td class="Case" id="30" onclick="ChCase(30);"></td>
+			<td class="Case" id="31" onclick="ChCase(31);"></td>
+			<td class="Case" id="32" onclick="ChCase(32);"></td>
+			<td class="Case" id="33" onclick="ChCase(33);"></td>
+			<td class="Case" id="34" onclick="ChCase(34);"></td>
+			<td class="Case" id="35" onclick="ChCase(35);"></td>
+
+			</tr>
+
+			</table>
+			<br/>
+		</div>
+		
+		<div id="start" onclick="stato()">
+			<img src="images/chrono.png">
+		</div>
+	</div>
+	
+</div>
+
+<div id="droite">
+	<div id="haut">
+		<div id="G">
+		</div>
+	</div>
+	
+	<div id="bas">
+	<p> Cliquez sur le chronom&egrave;tre pour lancer le jeu. Vous aurez alors 3 secondes pour cliquer sur toutes les cases rouges. Si vous y arrivez, vous gagnez 50 &euro;. Sinon vous perdez 7 fois le nombre de cases que vous avez rat&eacute;. Cliquez sur Bobby pour retourner au casino. </p>
+	</div>
+</div>
+
+
+</body>
+</html>
